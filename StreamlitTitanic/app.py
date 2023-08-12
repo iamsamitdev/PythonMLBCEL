@@ -3,7 +3,7 @@ import streamlit as st
 from joblib import load
 
 # load the model from disk
-model = load('../MyModelTrained/titatic_survival.joblib')
+model = load('titatic_survival.joblib')
 
 # Create Streamlit Web App
 st.title('Titanic Survival Prediction')
